@@ -1,3 +1,5 @@
+
+
 .logo{
     height: 100px;
     color: brown;
@@ -9,6 +11,9 @@
     justify-content: space-between;
     padding: 0% 20px;
     border: 1px solid black;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    
+   
 }
 
 .headerlist{
@@ -34,7 +39,9 @@
 
 .card img{
     width: 190px;
+    height: 200px;
     padding: 5px;
+    object-fit: cover;
    
 }
 
@@ -53,8 +60,10 @@ cursor: pointer;
 
 .search{
  padding: 10px;
+ 
     
 }
+
 
 
 .htag{
@@ -74,6 +83,7 @@ cursor: pointer;
     font-size: larger;
     font-weight: 300;
     font-style: normal;
+    font-weight: bold;
 }
 
 
@@ -91,3 +101,34 @@ cursor: pointer;
     
     
 }
+
+
+.shimmer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.shimmer h3{
+    width: 200px;
+    height: 300px;
+    background-color:  #f0f0f0;
+    
+}
+
+.searchkabutton{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 10px 0px;
+}
+
+.aboutclass{
+    border: 1px solid black;
+    background:#f0f0f0;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
