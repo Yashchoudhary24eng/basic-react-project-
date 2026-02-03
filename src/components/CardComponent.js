@@ -3,7 +3,7 @@ export const CardComponent = ({data}) => {
     const {id,name,cuisines,avgRatingString,cloudinaryImageId,sla} = data.info;
 return (
     <div className="card">
-        <img src={card_img + cloudinaryImageId} alt="food img"/>
+        <img  src={card_img + cloudinaryImageId} alt="food img"/>
         <h3 className="htag">{name}</h3>
         <h4 className="htag">{cuisines.join(", ")}</h4>
         <h4 className="htag">{avgRatingString}</h4>
