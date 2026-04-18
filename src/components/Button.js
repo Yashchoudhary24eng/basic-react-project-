@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { restaurantData } from "../utils/mockdata"
+import { restaurantData } from "../utils/mockData"
 
 
 export const Button = ({resdata,setdata,datafetch}) =>{
